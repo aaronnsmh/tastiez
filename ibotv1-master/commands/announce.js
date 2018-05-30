@@ -25,7 +25,7 @@ exports.run = (Discord, client, message, args) => {
 		   }
 		   const author = message.author;
 		   //const colour = args.slice(2).join("");
-		   var icon = "https://cdn.discordapp.com/attachments/449272905990275072/451378048801964032/TastiezAnnouncement.png";
+		   const icon = "https://cdn.discordapp.com/attachments/449272905990275072/451378048801964032/TastiezAnnouncement.png";
 		   const embed = new Discord.RichEmbed()
 		   .setColor(color)
 		   .setThumbnail(icon)
